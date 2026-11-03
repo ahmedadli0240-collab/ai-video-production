@@ -1,0 +1,13 @@
+You are a careful finance analyst. Analyze the attached ORIGINAL QuickBooks Online Profit and Loss Excel export from Intuit's demo company.
+
+First identify the company, reporting period(s), accounting basis, currency, total income, COGS if applicable, gross profit, operating expenses and net income. Check arithmetic carefully: distinguish detail lines, account headings and subtotals. Never double-count nested line items.
+
+Next produce:
+1. A verified KPI table containing amounts, formulas and gross/net margins where calculable.
+2. Five largest REAL expense categories (no duplicated subtotals), including percentage of revenue.
+3. Dollar and percent period-over-period changes ONLY if comparable periods exist; otherwise say explicitly that no trend can be established.
+4. Three possible profitability improvement hypotheses, clearly distinguished from demonstrated facts. State the additional transaction-level information needed.
+5. Five practical actions for a business owner over 30 days, with measurable KPIs and confidence levels.
+6. One chart using only verified source data.
+
+Cite the relevant spreadsheet lines/labels for key totals; explicitly flag missing, ambiguous, incomplete or mismatched data. Do not invent figures, financial causes, growth trends, savings or transactions. This is educational analysis, not personalized accounting or tax advice.
