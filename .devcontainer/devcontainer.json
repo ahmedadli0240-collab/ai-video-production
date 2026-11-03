@@ -1,0 +1,27 @@
+{
+  "name": "Real QuickBooks + ChatGPT Recording Studio",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--init",
+    "--shm-size=1g"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "webPort": "6080",
+      "password": "codespaces"
+    }
+  },
+  "forwardPorts": [
+    6080
+  ],
+  "portsAttributes": {
+    "6080": {
+      "label": "Private recording desktop",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "bash scripts/setup.sh",
+  "remoteUser": "pwuser"
+}
