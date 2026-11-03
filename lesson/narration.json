@@ -1,0 +1,30 @@
+[
+  {
+    "id": "intro",
+    "text": "In this lesson, we'll analyze a genuine QuickBooks Online profit and loss report using the actual ChatGPT website. These are real application screens, not recreations. We'll use Intuit's sample company so no confidential customer financial records are required."
+  },
+  {
+    "id": "quickbooks",
+    "text": "We're in the QuickBooks sample company. Open Reports, choose Profit and Loss, and inspect the date range and accounting basis. Check that your selected period contains transactions. A single period tells us about the cost structure, but not whether results improved over time."
+  },
+  {
+    "id": "export",
+    "text": "Export the original profit and loss report to Excel. This preserves the account categories, subtotals, and source amounts. Always work with the actual export rather than manually copying amounts."
+  },
+  {
+    "id": "chatgpt",
+    "text": "Now switch to the real ChatGPT browser tab, attach the Excel report, and enter the financial analysis prompt. Notice that we ask it to identify the reporting period and reconcile totals before giving advice."
+  },
+  {
+    "id": "analysis",
+    "text": "Let's examine the actual response and compare it with the original QuickBooks report. Revenue, expenses, gross profit and net profit should reconcile. Check that category subtotals haven't been counted twice. Treat any suggested explanations for financial changes as hypotheses until you review the transactions."
+  },
+  {
+    "id": "followup",
+    "text": "Next, ask ChatGPT for a thirty-day action plan. Good finance recommendations identify an owner, the evidence needed, an actionable metric, and the next decision. The most useful result is often a question that takes you back to the accounting records."
+  },
+  {
+    "id": "outro",
+    "text": "We've gone from a real QuickBooks profit and loss export to a ChatGPT analysis and a practical next-steps plan. Repeat this process with different periods, and always check the numbers. This lesson uses real software screens and AI-generated narration."
+  }
+]
