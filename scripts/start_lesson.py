@@ -84,6 +84,16 @@ def main():
             args=["--no-first-run","--disable-notifications"],slow_mo=80)
         q=context.pages[0] if context.pages else context.new_page()
         chat=context.new_page()
+        def save_download(download):
+            destination=OUT/"downloads"/Path(download.suggested_filename).name
+            try:
+                download.save_as(str(destination))
+                print("Saved original report download:",destination)
+            except Exception as exc:
+                print("Browser download error:",exc)
+        for page in context.pages:
+            page.on("download",save_download)
+        context.on("page",lambda pg:pg.on("download",save_download))
         try:
             q.goto(QBO,wait_until="domcontentloaded",timeout=60000)
         except PwTimeoutError:print("QuickBooks may still be loading.")
